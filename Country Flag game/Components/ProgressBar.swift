@@ -19,8 +19,7 @@ struct ProgressBar: View {
                 .frame(width: progress, height: 4)
                 .foregroundColor(.yellow)
                 .cornerRadius(10)
-        })
-        
+        }
     }
 }
 

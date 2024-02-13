@@ -9,15 +9,15 @@ import SwiftUI
 
 struct CustomButton: View {
     var text: String
-    var backround: Color = .yellow
+    var background: Color = .yellow
     var body: some View {
         Text(text)
             .foregroundColor(.cyan)
             .padding()
             .padding(.horizontal)
-            .Backround(backround)
+            .background(background)
             .cornerRadius(25)
-        shadow(radius: 10)
+            .shadow(radius: 10)
     }
 }
 

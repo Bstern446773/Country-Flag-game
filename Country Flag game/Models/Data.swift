@@ -7,8 +7,13 @@
 
 struct Data {
     let countries = [
+        "Afghanistan",
         "Angola",
+        "Australia",
         "Austria",
+        "Botswana",
+        "Brazil",
+        "Canada",
         "China",
         "England",
         "Estonia",
